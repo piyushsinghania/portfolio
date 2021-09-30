@@ -18,7 +18,7 @@ export default {
   align-items: center;
   justify-content: center;
   height: 50px;
-  margin: 5px 5px;
+  margin: 5px 8px;
 }
 .tech img {
   width: 40px;
