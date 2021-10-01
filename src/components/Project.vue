@@ -2,7 +2,12 @@
   <div v-for="project in projects" :key="project.id">
     <div class="project">
       <div class="details">
-        <h3 class="project__title"> {{project.title}} </h3>
+        <h3 class="project__title">
+           {{project.title}}
+            <a v-if="project.link" :href="project.link" target="_blank">
+              <i class="fas fa-link link__icon"></i>
+            </a>
+        </h3>
         <h5 class="project__role"> {{project.role}} </h5>
         <p> {{project.description}} </p>
         <div class="tag__cloud">
@@ -56,6 +61,13 @@ export default {
     font-weight: bolder;
     letter-spacing: 1px;
     margin-bottom: 2px;
+  }
+
+  .link__icon {
+    color: #ccc;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 16px;
   }
 
   .project__role {

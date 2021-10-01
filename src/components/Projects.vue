@@ -13,7 +13,7 @@ export default {
       projects: [
         {
           id: 1,
-          title: "Datoms Inverter Dashboard",
+          title: "Datoms",
           role: "Full stack developer",
           tags: ["Internship"],
           filename: "Datoms.png",
@@ -24,6 +24,7 @@ export default {
         {
           id: 2,
           title: "Acorn Globus",
+          link: "https://www.acornglobus.com/",
           role: "Frontend developer",
           tags: ["Freelance"],
           filename: "Acorn-Globus.png",
@@ -42,6 +43,7 @@ export default {
         {
           id: 4,
           title: "Datoms Weather Dashboard",
+          link: "https://datoms-weather.netlify.app/",
           role: "Full stack developer",
           tags: ["internship", "project"],
           filename: "Datoms-Weather.png",
@@ -51,6 +53,7 @@ export default {
         {
           id: 5,
           title: "Dojo Blog",
+          link: "https://dojoblogs.netlify.app/",
           role: "Frontend developer",
           tags: ["Project"],
           filename: "Dojo-Blogs.png",
