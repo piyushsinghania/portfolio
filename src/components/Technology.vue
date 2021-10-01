@@ -23,4 +23,22 @@ export default {
 .tech img {
   width: 40px;
 }
+
+@media only screen and (max-width: 768px) {
+  .tech {
+    height: 45px;
+  }
+  .tech img {
+    width: 35px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .tech {
+    height: 42px;
+  }
+  .tech img {
+    width: 32px;
+  }
+}
 </style>

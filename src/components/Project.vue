@@ -9,7 +9,7 @@
             </a>
         </h3>
         <h5 class="project__role"> {{project.role}} </h5>
-        <p> {{project.description}} </p>
+        <p class="project__description"> {{project.description}} </p>
         <div class="tag__cloud">
           <div class="tags" v-for="tag in project.tags" :key="tag">
             #{{tag}}
@@ -39,6 +39,7 @@ export default {
     /* border: 2px solid grey; */
     margin: 40px auto;
     width: 85%;
+    max-width: 1400px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -84,7 +85,7 @@ export default {
   }
 
   .tags {
-    color: grey;
+    /* color: grey; */
     text-decoration: none;
     margin: 0px 2px;
   }
@@ -96,6 +97,7 @@ export default {
     align-items: center;
     justify-content: start;
     height: 60px;
+    margin: 5px 0px;
   }
 
   .picture {
@@ -109,7 +111,88 @@ export default {
     box-sizing: border-box;
   }
 
-  @media screen {
+  @media only screen and (max-width: 1400px) {
+    .project {
+      width: 94%;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .project {
+      width: 95%;
+    }
+    .details {
+      width: 52%;
+    }
+    .project__description {
+      font-size: 18px;
+    }
+    .picture {
+      width: 43%;
+    }
+    .picture img {
+      width: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .project {
+      width: 90%;
+    }
+    .details {
+      width: 95%
+    }
+    .picture {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .project {
+      width: 90%;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .details {
+      width: 95%;
+      margin: 20px auto;
+    }
+
+    .project__description {
+      font-size: 18px;
+    }
+
+    .tech__stack {
+      height: 55px;
+    }
+
+    .picture {
+      display: none;
+      width: 95%;
+    }
+
+    .picture img {
+      width: 560px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+
+    .project__role {
+      font-size: 16px;
+    }
+
+    .project__description {
+      font-size: 16px;
+    }
+
+    .tags {
+      font-size: 16px;
+    }
+
+    .tech__stack {
+      height: 50px;
+    }
 
   }
 </style>

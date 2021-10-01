@@ -1,4 +1,5 @@
 <template>
+  <h3 class="projects__heading">Projects</h3>
   <Project :projects="projects" />
 </template>
 
@@ -14,6 +15,7 @@ export default {
         {
           id: 1,
           title: "Datoms",
+          link: "https://datoms.io/",
           role: "Full stack developer",
           tags: ["Internship"],
           filename: "Datoms.png",
@@ -34,6 +36,7 @@ export default {
         {
           id: 3,
           title: "Healthy Life",
+          link: "",
           role: "Frontend developer",
           tags: ["Project"],
           filename: "healthylife.png",
@@ -81,6 +84,7 @@ export default {
         {
           id: 8,
           title: "Hey todo",
+          link: "https://heytodo.netlify.app/",
           role: "Frontend developer",
           tags: ["project"],
           filename: "hey-todo.png",
@@ -103,5 +107,36 @@ export default {
 </script>
 
 <style>
+  .projects__heading {
+    font-family: 'Roboto Slab', serif;
+    width: 85%;
+    max-width: 1400px;
+    text-align: left;
+    margin: 10px auto;
+    margin-bottom: -35px;
+  }
 
+  @media only screen and (max-width: 1400px) {
+    .projects__heading {
+      width: 94%
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .projects__heading {
+      width: 95%
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .projects__heading {
+      width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .projects__heading {
+      width: 90%;
+    }
+  }
 </style>
