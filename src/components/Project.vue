@@ -152,6 +152,7 @@ export default {
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
+      margin: 35px;
     }
 
     .details {
@@ -175,15 +176,23 @@ export default {
     .picture img {
       width: 560px;
     }
+
+    .tech__stack {
+      height: 55px;
+    }
   }
   @media only screen and (max-width: 576px) {
+
+    .project {
+      margin: 25px auto;
+    }
 
     .project__role {
       font-size: 16px;
     }
 
     .project__description {
-      font-size: 16px;
+      font-size: 14px;
     }
 
     .tags {
