@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Project from '../components/Project.vue'
+import Project from './Project.vue'
 export default {
   components: {
     Project
@@ -41,6 +41,15 @@ export default {
         },
         {
           id: 4,
+          title: "Datoms Weather Dashboard",
+          role: "Full stack developer",
+          tags: ["internship", "project"],
+          filename: "Datoms-Weather.png",
+          stack: ["nodejs.png", "vue.png", "materialize-logo.png"],
+          description: "Developed weather dashboard to check the temperature forecast for the coming week. Also to display the current weather condition."
+        },
+        {
+          id: 5,
           title: "Dojo Blog",
           role: "Frontend developer",
           tags: ["Project"],
@@ -49,7 +58,7 @@ export default {
           description: "Developed a blogs page to create read and delete blogs. Blogs can also be filtered via tags."
         },
         {
-          id: 5,
+          id: 6,
           title: "Mausam Samachar",
           role: "Full stack developer",
           tags: ["project"],
@@ -58,13 +67,31 @@ export default {
           description: "Used geolocation and weather api's to develop the weather app. User can enter any location, and get the current weather for the location in one click."
         },
         {
-          id: 5,
+          id: 7,
           title: "Project manager",
           role: "Frontend developer",
           tags: ["project"],
           filename: "project-manager.png",
           stack: ["vue.png","firebase.png"],
           description: "Developed a project manager app. User can add, edit and delete projects. Also, can easily filter between completed and incompleted projects."
+        },
+        {
+          id: 8,
+          title: "Hey todo",
+          role: "Frontend developer",
+          tags: ["project"],
+          filename: "hey-todo.png",
+          stack: ["html.png", "css.png", "javascript.png"],
+          description: "Developed a simple todo list with localStorage functionality to save your todos locally on your browser."
+        },
+        {
+          id: 9,
+          title: "Weather App",
+          role: "Frontend developer",
+          tags: ["project"],
+          filename: "Weather-Project.png",
+          stack: ["html.png", "javascript.png"],
+          description: "A simple weather application with local storage support to remember the last weather search."
         }
       ]
     }

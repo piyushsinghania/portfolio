@@ -5,8 +5,10 @@
         <h3 class="project__title"> {{project.title}} </h3>
         <h5 class="project__role"> {{project.role}} </h5>
         <p> {{project.description}} </p>
-        <div class="tags" v-for="tag in project.tags" :key="tag">
-          #{{tag}}
+        <div class="tag__cloud">
+          <div class="tags" v-for="tag in project.tags" :key="tag">
+            #{{tag}}
+          </div>
         </div>
         <div class="tech__stack">
           <Technology v-for="tech in project.stack" :key="tech" :tech="tech" />
@@ -30,14 +32,17 @@ export default {
 <style>
   .project {
     /* border: 2px solid grey; */
-    margin: 50px auto;
+    margin: 40px auto;
     width: 85%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     background: white;
-    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 1px rgba(204,204,204,0.5);
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(204,204,204,0.5);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(204,204,204,0.5);
   } 
 
   .details {
@@ -47,7 +52,9 @@ export default {
   }
 
   .project__title {
+    font-family: 'Roboto Slab', serif;
     font-weight: bolder;
+    letter-spacing: 1px;
     margin-bottom: 2px;
   }
 
@@ -57,9 +64,17 @@ export default {
     margin: 0;
   }
 
+  .tag__cloud {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+  }
+
   .tags {
     color: grey;
     text-decoration: none;
+    margin: 0px 2px;
   }
 
   .tech__stack {
@@ -80,5 +95,9 @@ export default {
     width: 450px;
     border-radius: 10px;
     box-sizing: border-box;
+  }
+
+  @media screen {
+
   }
 </style>
