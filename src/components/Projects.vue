@@ -142,6 +142,7 @@ export default {
 
   @media only screen and (max-width: 576px) {
     .projects__heading {
+      width: 95%;
       margin-bottom: -20px;
     }
   } 

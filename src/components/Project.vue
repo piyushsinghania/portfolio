@@ -184,6 +184,7 @@ export default {
   @media only screen and (max-width: 576px) {
 
     .project {
+      width: 95%;
       margin: 25px auto;
     }
 
