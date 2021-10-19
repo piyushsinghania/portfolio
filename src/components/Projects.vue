@@ -66,6 +66,7 @@ export default {
         {
           id: 6,
           title: "Mausam Samachar",
+          link: "https://mausam-samachar.herokuapp.com/",
           role: "Full stack developer",
           tags: ["project"],
           filename: "mausam-samachar.png",
@@ -75,6 +76,7 @@ export default {
         {
           id: 7,
           title: "Project manager",
+          link: "https://projectsplanner.netlify.app/",
           role: "Frontend developer",
           tags: ["project"],
           filename: "project-manager.png",
