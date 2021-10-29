@@ -13,7 +13,6 @@ export default {
     return {
       projects: [
         {
-          id: 1,
           title: "Datoms",
           link: "https://datoms.io/",
           role: "Full stack developer",
@@ -24,7 +23,6 @@ export default {
           description: "Developed Inverter Dashboard using Vue and Express. Created Authentication system for the dashboard. Collaborated with another developers explaining all the features of the product for better development of the app. Developed an admin panel for resolving user queries."
         },
         {
-          id: 2,
           title: "Acorn Globus",
           link: "https://www.acornglobus.com/",
           role: "Frontend developer",
@@ -34,17 +32,15 @@ export default {
           description: "Developed the complete frontend, keeping in line with the design to meet the desired output. Tested site compatibility across multiple browsers and devices, uncovering and debugging issues and addressing inconsistencies."
         },
         {
-          id: 3,
           title: "Healthy Life",
-          link: "",
+          link: "https://livehealthy.netlify.app/",
           role: "Frontend developer",
           tags: ["Project"],
           filename: "healthylife.png",
           stack: ["html.png", "css.png"],
-          description: "Developed a beautiful webpage for health and wellness. This project gave me confidence and refined my skills."
+          description: "Developed a beautiful webpage for health and wellness. This project gave me confidence and refined my skills. Build it from scratch based on a design template."
         },
         {
-          id: 4,
           title: "Datoms Weather Dashboard",
           link: "https://datoms-weather.netlify.app/",
           role: "Full stack developer",
@@ -54,17 +50,24 @@ export default {
           description: "Developed weather dashboard to check the temperature forecast for the coming week. Also to display the current weather condition."
         },
         {
-          id: 5,
+          title: "Chat application",
+          link: "https://chit-and-chat.herokuapp.com/",
+          role: "Full stack developer",
+          tags: ["Project"],
+          filename: "Chat-app.png",
+          stack: ["nodejs.png", "javascript.png"],
+          description: "A quick chat application with chat rooms where one can join and start texting."
+        },
+        {
           title: "Dojo Blog",
           link: "https://dojoblogs.netlify.app/",
           role: "Frontend developer",
           tags: ["Project"],
           filename: "Dojo-Blogs.png",
           stack: ["vue.png", "firebase.png", "javascript.png", "css.png"],
-          description: "Developed a blogs page to create read and delete blogs. Blogs can also be filtered via tags."
+          description: "Developed a blogs page to create read and delete blogs. Blogs can also be filtered via tags." 
         },
         {
-          id: 6,
           title: "Mausam Samachar",
           link: "https://mausam-samachar.herokuapp.com/",
           role: "Full stack developer",
@@ -74,7 +77,6 @@ export default {
           description: "Used geolocation and weather api's to develop the weather app. User can enter any location, and get the current weather for the location in one click."
         },
         {
-          id: 7,
           title: "Project manager",
           link: "https://projectsplanner.netlify.app/",
           role: "Frontend developer",
@@ -84,7 +86,6 @@ export default {
           description: "Developed a project manager app. User can add, edit and delete projects. Also, can easily filter between completed and incompleted projects."
         },
         {
-          id: 8,
           title: "Hey todo",
           link: "https://heytodo.netlify.app/",
           role: "Frontend developer",
@@ -94,7 +95,6 @@ export default {
           description: "Developed a simple todo list with localStorage functionality to save your todos locally on your browser."
         },
         {
-          id: 9,
           title: "Weather App",
           role: "Frontend developer",
           tags: ["project"],

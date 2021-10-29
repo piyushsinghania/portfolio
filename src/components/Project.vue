@@ -1,5 +1,5 @@
 <template>
-  <div v-for="project in projects" :key="project.id">
+  <div v-for="project in projects" :key="project.title">
     <div class="project">
       <div class="details">
         <h3 class="project__title">
