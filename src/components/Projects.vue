@@ -56,7 +56,7 @@ export default {
           tags: ["Project"],
           filename: "Chat-app.png",
           stack: ["nodejs.png", "javascript.png"],
-          description: "A quick chat application with chat rooms where one can join and start texting."
+          description: "A quick chat application with chat rooms where one can join and start texting. Used socket package to implement the functionalities"
         },
         {
           title: "Dojo Blog",
