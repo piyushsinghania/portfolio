@@ -45,7 +45,7 @@ export default {
     align-items: center;
     justify-content: space-around;
     background: white;
-    border-radius: 2px;
+    border-radius: 8px;
     box-shadow: 0px 0px 2px 1px rgba(204,204,204,0.5);
     -webkit-box-shadow: 0px 0px 2px 1px rgba(204,204,204,0.5);
     -moz-box-shadow: 0px 0px 2px 1px rgba(204,204,204,0.5);
@@ -58,7 +58,7 @@ export default {
   }
 
   .project__title {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', serif;
     font-weight: bolder;
     letter-spacing: 1px;
     margin-bottom: 2px;

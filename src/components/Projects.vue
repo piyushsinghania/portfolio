@@ -110,7 +110,7 @@ export default {
 
 <style>
   .projects__heading {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', serif;
     width: 85%;
     max-width: 1400px;
     text-align: left;
