@@ -16,7 +16,7 @@ export default {
           title: "Frappe Books",
           link: "https://frappebooks.com/",
           role: "Full stack developer",
-          tags: ["Open source"],
+          tags: ["Opensource"],
           filename: "Frappe-Books.png",
           stack: ["vue.png", "electron.png", "javascript.png", "nodejs.png", "tailwind.png"],
           description: "Open source contribution on Frappe Books, a free Desktop book-keeping software for small-businesses and freelancers."
