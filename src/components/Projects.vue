@@ -108,7 +108,7 @@ export default {
           tags: ["project"],
           filename: "Weather-Project.png",
           stack: ["html.png", "javascript.png"],
-          description: "A simple weather application with local storage support to remember the last weather search."
+          description: "A simple weather application with support of local storage to remember the last search location."
         }
       ]
     }

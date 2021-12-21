@@ -55,6 +55,7 @@ export default {
     /* border: 2px solid red; */
     width: 55%;
     text-align: left;
+    color: #4C5A67
   }
 
   .project__title {
