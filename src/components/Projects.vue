@@ -13,12 +13,20 @@ export default {
     return {
       projects: [
         {
+          title: "Frappe Books",
+          link: "https://frappebooks.com/",
+          role: "Full stack developer",
+          tags: ["Open source"],
+          filename: "Frappe-Books.png",
+          stack: ["vue.png", "electron.png", "javascript.png", "nodejs.png", "tailwind.png"],
+          description: "Open source contribution on Frappe Books, a free Desktop book-keeping software for small-businesses and freelancers."
+        },
+        {
           title: "Datoms",
           link: "https://datoms.io/",
           role: "Full stack developer",
           tags: ["Internship"],
           filename: "Datoms.png",
-          tags: ["internship"],
           stack: ["vue.png", "nodejs.png", "materialize-logo.png", "javascript.png", "chart-js.png", "MongoDB.png"],
           description: "Developed Inverter Dashboard using Vue and Express. Created Authentication system for the dashboard. Collaborated with another developers explaining all the features of the product for better development of the app. Developed an admin panel for resolving user queries."
         },
