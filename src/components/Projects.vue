@@ -19,7 +19,7 @@ export default {
           tags: ["Opensource"],
           filename: "Frappe-Books.png",
           stack: ["vue.png", "electron.png", "javascript.png", "nodejs.png", "tailwind.png"],
-          description: "Open source contribution on Frappe Books, a free Desktop book-keeping software for small-businesses and freelancers."
+          description: "Open source contribution on Frappe Books. <Br /> A free Desktop book-keeping software for small-businesses and freelancers."
         },
         {
           title: "Datoms",
@@ -28,7 +28,7 @@ export default {
           tags: ["Internship"],
           filename: "Datoms.png",
           stack: ["vue.png", "nodejs.png", "materialize-logo.png", "javascript.png", "chart-js.png", "MongoDB.png"],
-          description: "Developed Inverter Dashboard using Vue and Express. Created Authentication system for the dashboard. Collaborated with another developers explaining all the features of the product for better development of the app. Developed an admin panel for resolving user queries."
+          description: "Developed Inverter Dashboard using Vue and Express. <Br /> Created Authentication system for the dashboard. <Br /> Collaborated with another developers explaining all the features of the product for better development of the app. Developed an admin panel for resolving user queries."
         },
         {
           title: "Acorn Globus",
@@ -46,7 +46,16 @@ export default {
           tags: ["Project"],
           filename: "healthylife.png",
           stack: ["html.png", "css.png"],
-          description: "Developed a beautiful webpage for health and wellness. This project gave me confidence and refined my skills. Build it from scratch based on a design template."
+          description: "Developed a beautiful webpage for health and wellness. <Br /> This project gave me confidence and refined my skills. Build it from scratch based on a design template."
+        },
+        {
+          title: "Memory Game",
+          link: "https://flipinout.netlify.app/",
+          role: "Frontend developer",
+          tags: ["Project"],
+          filename: "magic-memory.png",
+          stack: ["react.svg", "javascript.png", "css.png"],
+          description: "Sharpen up your memories once again with this evergreen memory game. <Br /> Developed this interactive and simple game using React-js"
         },
         {
           title: "Datoms Weather Dashboard",
@@ -55,7 +64,7 @@ export default {
           tags: ["internship", "project"],
           filename: "Datoms-Weather.png",
           stack: ["nodejs.png", "vue.png", "materialize-logo.png"],
-          description: "Developed weather dashboard to check the temperature forecast for the coming week. Also to display the current weather condition."
+          description: "Developed weather dashboard to check the temperature forecast for the coming week. <Br /> Also to display the current weather condition."
         },
         {
           title: "Chat application",
@@ -64,7 +73,7 @@ export default {
           tags: ["Project"],
           filename: "Chat-app.png",
           stack: ["nodejs.png", "javascript.png"],
-          description: "A quick chat application with chat rooms where one can join and start texting. Used socket package to implement the functionalities"
+          description: "A quick chat application with chat rooms where one can join and start texting. <Br /> Used socket package to implement the functionalities"
         },
         {
           title: "Dojo Blog",
@@ -73,7 +82,7 @@ export default {
           tags: ["Project"],
           filename: "Dojo-Blogs.png",
           stack: ["vue.png", "firebase.png", "javascript.png", "css.png"],
-          description: "Developed a blogs page to create read and delete blogs. Blogs can also be filtered via tags." 
+          description: "Developed a blogs page to create read and delete blogs. <Br /> Blogs can also be filtered via tags."
         },
         {
           title: "Mausam Samachar",
@@ -82,7 +91,7 @@ export default {
           tags: ["project"],
           filename: "mausam-samachar.png",
           stack: ["nodejs.png", "javascript.png"],
-          description: "Used geolocation and weather api's to develop the weather app. User can enter any location, and get the current weather for the location in one click."
+          description: "Used geolocation and weather api's to develop the weather app. <Br /> User can enter any location, and get the current weather for the location in one click."
         },
         {
           title: "Project manager",
@@ -91,7 +100,7 @@ export default {
           tags: ["project"],
           filename: "project-manager.png",
           stack: ["vue.png","firebase.png"],
-          description: "Developed a project manager app. User can add, edit and delete projects. Also, can easily filter between completed and incompleted projects."
+          description: "Developed a project manager app. User can add, edit and delete projects. <Br /> Also, can easily filter between completed and incompleted projects."
         },
         {
           title: "Hey todo",
@@ -100,7 +109,7 @@ export default {
           tags: ["project"],
           filename: "hey-todo.png",
           stack: ["html.png", "css.png", "javascript.png"],
-          description: "Developed a simple todo list with localStorage functionality to save your todos locally on your browser."
+          description: "Developed a simple todo list. <Br /> Also comes with localStorage functionality to save your todos locally on your browser."
         },
         {
           title: "Weather App",

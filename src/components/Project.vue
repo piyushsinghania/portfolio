@@ -9,7 +9,9 @@
             </a>
         </h3>
         <h5 class="project__role"> {{project.role}} </h5>
-        <p class="project__description"> {{project.description}} </p>
+        <p class="project__description">
+          <span v-html="project.description"></span>
+        </p>
         <div class="tag__cloud">
           <div class="tags" v-for="tag in project.tags" :key="tag">
             #{{tag}}
@@ -103,6 +105,7 @@ export default {
 
   .picture {
     /* border: 2px solid black; */
+    margin: 10px 0px;
     width: 40%;
   }
 
