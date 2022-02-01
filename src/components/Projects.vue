@@ -49,6 +49,15 @@ export default {
           description: "Developed a beautiful webpage for health and wellness. <Br /> This project gave me confidence and refined my skills. Build it from scratch based on a design template."
         },
         {
+          title: "Cooking Blog",
+          link: "https://cooking-blog.netlify.app/",
+          role: "Frontend developer",
+          tags: ["Project"],
+          filename: "cooking-blog.png",
+          stack: ["react.svg", "javascript.png", "firebase.png", "css.png"],
+          description: "Cook some tasty food with this cooking blog. <Br /> Developed this recipe blog site to read and write recipes. <Br /> Used firebase/firestore as backend database."
+        },
+        {
           title: "Memory Game",
           link: "https://flipinout.netlify.app/",
           role: "Frontend developer",
