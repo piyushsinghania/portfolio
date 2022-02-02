@@ -35,7 +35,7 @@ export default {
           link: "https://www.acornglobus.com/",
           role: "Frontend developer",
           tags: ["Freelance"],
-          filename: "Acorn-Globus.png",
+          filename: "acorn-globus.png",
           stack: ["html.png", "css.png", "javascript.png"],
           description: "Developed the complete frontend, keeping in line with the design to meet the desired output. Tested site compatibility across multiple browsers and devices, uncovering and debugging issues and addressing inconsistencies."
         },
