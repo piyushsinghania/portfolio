@@ -36,7 +36,7 @@ export default {
           role: "Frontend developer",
           tags: ["Freelance"],
           filename: "acorn-globus.png",
-          stack: ["html.png", "css.png", "javascript.png"],
+          stack: ["html.png", "css.png", "javascript.png", "vue.png"],
           description: "Developed the complete frontend, keeping in line with the design to meet the desired output. Tested site compatibility across multiple browsers and devices, uncovering and debugging issues and addressing inconsistencies."
         },
         {
