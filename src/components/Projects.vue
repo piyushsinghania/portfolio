@@ -36,8 +36,17 @@ export default {
           role: "Frontend developer",
           tags: ["Freelance"],
           filename: "acorn-globus.png",
-          stack: ["html.png", "css.png", "javascript.png", "vue.png"],
+          stack: ["html.png", "css-3.png", "javascript.png", "vue.png"],
           description: "Developed the complete frontend, keeping in line with the design to meet the desired output. Tested site compatibility across multiple browsers and devices, uncovering and debugging issues and addressing inconsistencies."
+        },
+        {
+          title: "Nirman",
+          link: "https://nirman.netlify.app/",
+          role: "Frontend developer",
+          tags: ["Freelance"],
+          filename: "nirman.png",
+          stack: ["html.png", "css-3.png", "Bootstrap.png"],
+          description: "Created the website for a fest like event called Nirman, which was held at the intercollege level. Worked with members of the club to understand the requirements and addressed them consistently."
         },
         {
           title: "Healthy Life",
@@ -45,7 +54,7 @@ export default {
           role: "Frontend developer",
           tags: ["Project"],
           filename: "healthylife.png",
-          stack: ["html.png", "css.png"],
+          stack: ["html.png", "css-3.png"],
           description: "Developed a beautiful webpage for health and wellness. <Br /> This project gave me confidence and refined my skills. Build it from scratch based on a design template."
         },
         {
@@ -54,7 +63,7 @@ export default {
           role: "Frontend developer",
           tags: ["Project"],
           filename: "cooking-blog.png",
-          stack: ["react.svg", "javascript.png", "firebase.png", "css.png"],
+          stack: ["react.svg", "javascript.png", "firebase.png", "css-3.png"],
           description: "Cook some tasty food with this cooking blog. <Br /> Developed this recipe blog site to read and write recipes. <Br /> Used firebase/firestore as backend database."
         },
         {
@@ -63,7 +72,7 @@ export default {
           role: "Frontend developer",
           tags: ["Project"],
           filename: "magic-memory.png",
-          stack: ["react.svg", "javascript.png", "css.png"],
+          stack: ["react.svg", "javascript.png", "css-3.png"],
           description: "Sharpen up your memories once again with this evergreen memory game. <Br /> Developed this interactive and simple game using React-js"
         },
         {
@@ -90,7 +99,7 @@ export default {
           role: "Frontend developer",
           tags: ["Project"],
           filename: "Dojo-Blogs.png",
-          stack: ["vue.png", "firebase.png", "javascript.png", "css.png"],
+          stack: ["vue.png", "firebase.png", "javascript.png", "css-3.png"],
           description: "Developed a blogs page to create read and delete blogs. <Br /> Blogs can also be filtered via tags."
         },
         {
@@ -117,7 +126,7 @@ export default {
           role: "Frontend developer",
           tags: ["project"],
           filename: "hey-todo.png",
-          stack: ["html.png", "css.png", "javascript.png"],
+          stack: ["html.png", "css-3.png", "javascript.png"],
           description: "Developed a simple todo list. <Br /> Also comes with localStorage functionality to save your todos locally on your browser."
         },
         {
