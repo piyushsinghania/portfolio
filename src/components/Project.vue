@@ -161,7 +161,7 @@ export default {
 
     .details {
       width: 95%;
-      margin: 20px auto;
+      margin: 0px auto;
     }
 
     .project__description {
@@ -190,6 +190,12 @@ export default {
     .project {
       width: 95%;
       margin: 25px auto;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .project__title {
+      margin-top: 10px;
     }
 
     .project__role {
