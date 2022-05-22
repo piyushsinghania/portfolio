@@ -14,14 +14,16 @@ export default {
 <style>
 .tech {
   /* border: 2px solid black; */
+  box-sizing: border-box;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50px;
-  margin: 5px 8px;
+  margin-right: 10px;
 }
 .tech img {
-  width: 40px;
+  width: 35px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -29,16 +31,13 @@ export default {
     height: 45px;
   }
   .tech img {
-    width: 35px;
+    width: 30px;
   }
 }
 
 @media only screen and (max-width: 576px) {
   .tech {
     height: 42px;
-  }
-  .tech img {
-    width: 32px;
   }
 }
 </style>
