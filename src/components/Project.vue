@@ -113,6 +113,7 @@ export default {
     width: 450px;
     border-radius: 10px;
     box-sizing: border-box;
+    border: 1px solid #ddd;
   }
 
   @media only screen and (max-width: 1400px) {

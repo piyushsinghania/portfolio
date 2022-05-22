@@ -13,6 +13,15 @@ export default {
     return {
       projects: [
         {
+          title: "Formester",
+          link: "https://formester.com/",
+          role: "Frontend Developer",
+          tags: ["Fulltime"],
+          filename: "formester-form-builder-background.png",
+          stack: ["vue.png", "javascript.png", "Bootstrap.png"],
+          description: "Formester is Form Solution For Your Business. <Br /> Build forms in minutes using drag and drop builder or integrate with your existing HTML form."
+        },
+        {
           title: "Frappe Books",
           link: "https://frappebooks.com/",
           role: "Full stack developer",
