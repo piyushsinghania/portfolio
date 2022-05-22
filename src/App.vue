@@ -17,7 +17,11 @@ export default {
   font-family: 'Nunito Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+}
+h1,h2,h3 {
+  color: #767f7e;
+}
+p {
+  color: #828b8a;
 }
 </style>

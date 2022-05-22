@@ -40,8 +40,7 @@ export default {
   .project {
     /* border: 2px solid grey; */
     margin: 40px auto;
-    width: 85%;
-    max-width: 1400px;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,7 +56,6 @@ export default {
     /* border: 2px solid red; */
     width: 55%;
     text-align: left;
-    color: #4C5A67
   }
 
   .project__title {
@@ -68,7 +66,7 @@ export default {
   }
 
   .link__icon {
-    color: #ccc;
+    color: #777;
     margin: 0px 10px;
     cursor: pointer;
     font-size: 16px;
@@ -82,6 +80,7 @@ export default {
 
   .tag__cloud {
     display: flex;
+    color: #767f7e;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;

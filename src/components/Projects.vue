@@ -1,5 +1,7 @@
 <template>
-  <h3 class="projects__heading">Projects</h3>
+  <header>
+    <h1>Projects</h1>
+  </header>
   <Project :projects="projects" />
 </template>
 
@@ -153,43 +155,38 @@ export default {
 </script>
 
 <style>
-  .projects__heading {
-    font-family: 'Poppins', serif;
-    width: 85%;
-    max-width: 1400px;
-    text-align: left;
+header {
+  margin: 30px auto;
+  border-bottom: 1px solid #bbc7c7;
+  max-width: 1200px;
+}
+
+@media only screen and (max-width: 1400px) {
+  header {
+    width: 94%
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    margin: 20px auto;
+    width: 90%;
+  }
+  header h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  header {
+    width: 90%;
     margin: 10px auto;
-    margin-bottom: -35px;
   }
+}
 
-  @media only screen and (max-width: 1400px) {
-    .projects__heading {
-      width: 94%
-    }
+@media only screen and (max-width: 576px) {
+  header {
+    width: 95%;
   }
-
-  @media only screen and (max-width: 1200px) {
-    .projects__heading {
-      width: 95%
-    }
-  }
-
-  @media only screen and (max-width: 992px) {
-    .projects__heading {
-      width: 90%;
-    }
-  }
-
-  @media only screen and (max-width: 768px){
-    .projects__heading {
-      width: 90%;
-    }
-  }
-
-  @media only screen and (max-width: 576px) {
-    .projects__heading {
-      width: 95%;
-      margin-bottom: -20px;
-    }
-  } 
+}
 </style>
