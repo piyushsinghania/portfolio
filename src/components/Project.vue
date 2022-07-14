@@ -46,10 +46,8 @@ export default {
     align-items: center;
     justify-content: space-around;
     background: white;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0px 0px 2px 1px rgba(204,204,204,0.5);
-    -moz-box-shadow: 0px 0px 2px 1px rgba(204,204,204,0.5);
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
   } 
 
   .details {
@@ -110,7 +108,7 @@ export default {
 
   .picture img {
     width: 450px;
-    border-radius: 10px;
+    border-radius: 6px;
     box-sizing: border-box;
     border: 1px solid #ddd;
   }

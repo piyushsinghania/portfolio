@@ -156,8 +156,7 @@ export default {
 
 <style>
 header {
-  margin: 30px auto;
-  border-bottom: 1px solid #bbc7c7;
+  margin: 20px auto 0px;
   max-width: 1200px;
 }
 
