@@ -4,9 +4,6 @@
       <div class="details">
         <h3 class="project__title">
            {{project.title}}
-            <a v-if="project.link" :href="project.link" target="_blank">
-              <i class="fas fa-link link__icon"></i>
-            </a>
         </h3>
         <h5 class="project__role"> {{project.role}} </h5>
         <p class="project__description">
@@ -20,6 +17,11 @@
         <div class="tech__stack">
           <Technology v-for="tech in project.stack" :key="tech" :tech="tech" />
         </div>
+        <a v-if="project.link" :href="project.link" target="_blank">
+          <button class="project__link">
+            Know More
+          </button>
+        </a>
       </div>
       <div class="picture">
         <img :src="require(`../assets/${project.filename}`)" alt="">
@@ -58,9 +60,10 @@ export default {
 
   .project__title {
     font-family: 'Poppins', serif;
-    font-weight: bolder;
+    font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 2px;
+    color: #303030;
   }
 
   .link__icon {
@@ -74,6 +77,11 @@ export default {
     text-transform: uppercase;
     color: #777;
     margin: 0;
+    font-weight: 300;
+  }
+
+  .project__description {
+    color: #444;
   }
 
   .tag__cloud {
@@ -98,6 +106,22 @@ export default {
     justify-content: flex-start;
     height: 60px;
     margin: 5px 0px;
+  }
+
+  .project__link {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 16px;
+    margin-bottom: 15px;
+    border: 0;
+    border-radius: 4px;
+    background: #7c68eece;
+    color: white;
+    cursor: pointer;
+  }
+
+  .project__link:hover {
+    background: #7c68ee;
   }
 
   .picture {
