@@ -17,11 +17,20 @@ export default {
         {
           title: "Formester",
           link: "https://formester.com/",
-          role: "Frontend Developer",
+          role: "Full stack developer",
           tags: ["Fulltime"],
           filename: "formester-form-builder-background.png",
-          stack: ["vue.png", "javascript.png", "Bootstrap.png"],
+          stack: ["rails.png", "rspec.svg", "vue.png", "javascript.png", "Bootstrap.png"],
           description: "Formester is Form Solution For Your Business. <Br /> Build forms in minutes using drag and drop builder or integrate with your existing HTML form."
+        },
+        {
+          title: "Eitoss",
+          link: "https://eitoss.com/",
+          role: "Full stack developer",
+          tags: ["Fulltime"],
+          filename: "Eitoss.png",
+          stack: ["rspec.svg", "graphql.png", "rails.png", "react.svg", "typescript.png", "material-ui.png"],
+          description: "Eitoss is a communication tool for managers and frontline workers. <Br /> It builds on the concept of Kaizen and help companies build product that are driven by the people who are on the frontline."
         },
         {
           title: "Frappe Books",
