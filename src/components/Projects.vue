@@ -29,7 +29,7 @@ export default {
           role: "Full stack developer",
           tags: ["Fulltime"],
           filename: "Eitoss.png",
-          stack: ["rspec.svg", "graphql.png", "rails.png", "react.svg", "typescript.png", "material-ui.png"],
+          stack: ["rails.png", "rspec.svg", "react.svg", "typescript.png", "material-ui.png", "graphql.png"],
           description: "Eitoss is a communication tool for managers and frontline workers. <Br /> It builds on the concept of Kaizen and help companies build product that are driven by the people who are on the frontline."
         },
         {
