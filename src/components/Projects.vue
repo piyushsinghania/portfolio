@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import Project from './Project.vue'
+import Project from "./Project.vue";
 export default {
   components: {
-    Project
+    Project,
   },
   data() {
     return {
@@ -20,8 +20,15 @@ export default {
           role: "Full stack developer",
           tags: ["Fulltime"],
           filename: "formester-form-builder-background.png",
-          stack: ["rails.png", "rspec.svg", "vue.png", "javascript.png", "Bootstrap.png"],
-          description: "Formester is Form Solution For Your Business. <Br /> Build forms in minutes using drag and drop builder or integrate with your existing HTML form."
+          stack: [
+            "rails.png",
+            "rspec.svg",
+            "vue.png",
+            "javascript.png",
+            "Bootstrap.png",
+          ],
+          description:
+            "Formester is Form Solution For Your Business. <Br /> Build forms in minutes using drag and drop builder or integrate with your existing HTML form.",
         },
         {
           title: "Eitoss",
@@ -29,8 +36,16 @@ export default {
           role: "Full stack developer",
           tags: ["Fulltime"],
           filename: "Eitoss.png",
-          stack: ["rails.png", "rspec.svg", "react.svg", "typescript.png", "material-ui.png", "graphql.png"],
-          description: "Eitoss is a communication tool for managers and frontline workers. <Br /> It builds on the concept of Kaizen and help companies build product that are driven by the people who are on the frontline."
+          stack: [
+            "rails.png",
+            "rspec.svg",
+            "react.svg",
+            "typescript.png",
+            "material-ui.png",
+            "graphql.png",
+          ],
+          description:
+            "Eitoss is a communication tool for managers and frontline workers. <Br /> It builds on the concept of Kaizen and help companies build product that are driven by the people who are on the frontline.",
         },
         {
           title: "Frappe Books",
@@ -38,8 +53,15 @@ export default {
           role: "Full stack developer",
           tags: ["Opensource"],
           filename: "Frappe-Books.png",
-          stack: ["vue.png", "electron.png", "javascript.png", "nodejs.png", "tailwind.png"],
-          description: "Open source contribution on Frappe Books. <Br /> A free Desktop book-keeping software for small-businesses and freelancers."
+          stack: [
+            "vue.png",
+            "electron.png",
+            "javascript.png",
+            "nodejs.png",
+            "tailwind.png",
+          ],
+          description:
+            "Open source contribution on Frappe Books. <Br /> A free Desktop book-keeping software for small-businesses and freelancers.",
         },
         {
           title: "Datoms",
@@ -47,8 +69,16 @@ export default {
           role: "Full stack developer",
           tags: ["Internship"],
           filename: "Datoms.png",
-          stack: ["vue.png", "nodejs.png", "materialize-logo.png", "javascript.png", "chart-js.png", "MongoDB.png"],
-          description: "Developed Inverter Dashboard using Vue and Express. <Br /> Created Authentication system for the dashboard. <Br /> Collaborated with another developers explaining all the features of the product for better development of the app. Developed an admin panel for resolving user queries."
+          stack: [
+            "vue.png",
+            "nodejs.png",
+            "materialize-logo.png",
+            "javascript.png",
+            "chart-js.png",
+            "MongoDB.png",
+          ],
+          description:
+            "Developed Inverter Dashboard using Vue and Express. <Br /> Created Authentication system for the dashboard. <Br /> Collaborated with another developers explaining all the features of the product for better development of the app. Developed an admin panel for resolving user queries.",
         },
         {
           title: "Acorn Globus",
@@ -57,7 +87,8 @@ export default {
           tags: ["Freelance"],
           filename: "acorn-globus.png",
           stack: ["html.png", "css-3.png", "javascript.png", "vue.png"],
-          description: "Developed the complete frontend, keeping in line with the design to meet the desired output. Tested site compatibility across multiple browsers and devices, uncovering and debugging issues and addressing inconsistencies."
+          description:
+            "Developed the complete frontend, keeping in line with the design to meet the desired output. Tested site compatibility across multiple browsers and devices, uncovering and debugging issues and addressing inconsistencies.",
         },
         {
           title: "Nirman",
@@ -66,7 +97,8 @@ export default {
           tags: ["Freelance"],
           filename: "nirman.png",
           stack: ["html.png", "css-3.png", "Bootstrap.png"],
-          description: "Created the website for a fest like event called Nirman, which was held at the intercollege level. Worked with members of the club to understand the requirements and addressed them consistently."
+          description:
+            "Created the website for a fest like event called Nirman, which was held at the intercollege level. Worked with members of the club to understand the requirements and addressed them consistently.",
         },
         {
           title: "Healthy Life",
@@ -75,7 +107,8 @@ export default {
           tags: ["Project"],
           filename: "healthylife.png",
           stack: ["html.png", "css-3.png"],
-          description: "Developed a beautiful webpage for health and wellness. <Br /> This project gave me confidence and refined my skills. Build it from scratch based on a design template."
+          description:
+            "Developed a beautiful webpage for health and wellness. <Br /> This project gave me confidence and refined my skills. Build it from scratch based on a design template.",
         },
         {
           title: "Cooking Blog",
@@ -84,7 +117,8 @@ export default {
           tags: ["Project"],
           filename: "cooking-blog.png",
           stack: ["react.svg", "javascript.png", "firebase.png", "css-3.png"],
-          description: "Cook some tasty food with this cooking blog. <Br /> Developed this recipe blog site to read and write recipes. <Br /> Used firebase/firestore as backend database."
+          description:
+            "Cook some tasty food with this cooking blog. <Br /> Developed this recipe blog site to read and write recipes. <Br /> Used firebase/firestore as backend database.",
         },
         {
           title: "Memory Game",
@@ -93,7 +127,8 @@ export default {
           tags: ["Project"],
           filename: "magic-memory.png",
           stack: ["react.svg", "javascript.png", "css-3.png"],
-          description: "Sharpen up your memories once again with this evergreen memory game. <Br /> Developed this interactive and simple game using React-js"
+          description:
+            "Sharpen up your memories once again with this evergreen memory game. <Br /> Developed this interactive and simple game using React-js",
         },
         {
           title: "Datoms Weather Dashboard",
@@ -102,7 +137,8 @@ export default {
           tags: ["internship", "project"],
           filename: "Datoms-Weather.png",
           stack: ["nodejs.png", "vue.png", "materialize-logo.png"],
-          description: "Developed weather dashboard to check the temperature forecast for the coming week. <Br /> Also to display the current weather condition."
+          description:
+            "Developed weather dashboard to check the temperature forecast for the coming week. <Br /> Also to display the current weather condition.",
         },
         {
           title: "Chat application",
@@ -111,7 +147,8 @@ export default {
           tags: ["Project"],
           filename: "Chat-app.png",
           stack: ["nodejs.png", "javascript.png"],
-          description: "A quick chat application with chat rooms where one can join and start texting. <Br /> Used socket package to implement the functionalities"
+          description:
+            "A quick chat application with chat rooms where one can join and start texting. <Br /> Used socket package to implement the functionalities",
         },
         {
           title: "Dojo Blog",
@@ -120,7 +157,8 @@ export default {
           tags: ["Project"],
           filename: "Dojo-Blogs.png",
           stack: ["vue.png", "firebase.png", "javascript.png", "css-3.png"],
-          description: "Developed a blogs page to create read and delete blogs. <Br /> Blogs can also be filtered via tags."
+          description:
+            "Developed a blogs page to create read and delete blogs. <Br /> Blogs can also be filtered via tags.",
         },
         {
           title: "Mausam Samachar",
@@ -129,7 +167,8 @@ export default {
           tags: ["project"],
           filename: "mausam-samachar.png",
           stack: ["nodejs.png", "javascript.png"],
-          description: "Used geolocation and weather api's to develop the weather app. <Br /> User can enter any location, and get the current weather for the location in one click."
+          description:
+            "Used geolocation and weather api's to develop the weather app. <Br /> User can enter any location, and get the current weather for the location in one click.",
         },
         {
           title: "Project manager",
@@ -137,8 +176,9 @@ export default {
           role: "Frontend developer",
           tags: ["project"],
           filename: "project-manager.png",
-          stack: ["vue.png","firebase.png"],
-          description: "Developed a project manager app. User can add, edit and delete projects. <Br /> Also, can easily filter between completed and incompleted projects."
+          stack: ["vue.png", "firebase.png"],
+          description:
+            "Developed a project manager app. User can add, edit and delete projects. <Br /> Also, can easily filter between completed and incompleted projects.",
         },
         {
           title: "Hey todo",
@@ -147,7 +187,8 @@ export default {
           tags: ["project"],
           filename: "hey-todo.png",
           stack: ["html.png", "css-3.png", "javascript.png"],
-          description: "Developed a simple todo list. <Br /> Also comes with localStorage functionality to save your todos locally on your browser."
+          description:
+            "Developed a simple todo list. <Br /> Also comes with localStorage functionality to save your todos locally on your browser.",
         },
         {
           title: "Weather App",
@@ -155,12 +196,13 @@ export default {
           tags: ["project"],
           filename: "Weather-Project.png",
           stack: ["html.png", "javascript.png"],
-          description: "A simple weather application with support of local storage to remember the last search location."
-        }
-      ]
-    }
-  }
-}
+          description:
+            "A simple weather application with support of local storage to remember the last search location.",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style>
@@ -171,7 +213,7 @@ header {
 
 @media only screen and (max-width: 1400px) {
   header {
-    width: 94%
+    width: 94%;
   }
 }
 
@@ -185,7 +227,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   header {
     width: 90%;
     margin: 10px auto;

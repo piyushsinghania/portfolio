@@ -1,14 +1,13 @@
 <template>
   <div class="tech">
-    <img :src="require(`../assets/${tech}`)" alt="">
+    <img :src="require(`../assets/${tech}`)" alt="" />
   </div>
 </template>
 
 <script>
 export default {
-  props: ["tech"]
-
-}
+  props: ["tech"],
+};
 </script>
 
 <style>
