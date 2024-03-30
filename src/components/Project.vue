@@ -1,27 +1,25 @@
 <template>
-  <div v-for="project in projects" :key="project.title">
-    <div class="project">
-      <div class="details">
-        <h3 class="project__title">
-          {{ project.title }}
-        </h3>
-        <h5 class="project__role">{{ project.role }}</h5>
-        <p class="project__description">
-          <span v-html="project.description"></span>
-        </p>
-        <div class="tag__cloud">
-          <div class="tags" v-for="tag in project.tags" :key="tag">#{{ tag }}</div>
-        </div>
-        <div class="tech__stack">
-          <Technology v-for="tech in project.stack" :key="tech" :tech="tech" />
-        </div>
-        <a v-if="project.link" :href="project.link" target="_blank">
-          <button class="project__link">Know More</button>
-        </a>
+  <div class="project">
+    <div class="details">
+      <h3 class="project__title">
+        {{ project.title }}
+      </h3>
+      <h5 class="project__role">{{ project.role }}</h5>
+      <p class="project__description">
+        <span v-html="project.description"></span>
+      </p>
+      <div class="tag__cloud">
+        <div class="tags" v-for="tag in project.tags" :key="tag">#{{ tag }}</div>
       </div>
-      <div class="picture">
-        <img :src="require(`../assets/${project.filename}`)" alt="" />
+      <div class="tech__stack">
+        <Technology v-for="tech in project.stack" :key="tech" :tech="tech" />
       </div>
+      <a v-if="project.link" :href="project.link" target="_blank">
+        <button class="project__link">Know More</button>
+      </a>
+    </div>
+    <div class="picture">
+      <img :src="require(`../assets/${project.filename}`)" alt="" />
     </div>
   </div>
 </template>
@@ -30,7 +28,7 @@
 import Technology from "./Technology.vue";
 export default {
   components: { Technology },
-  props: ["projects"]
+  props: ["project"]
 };
 </script>
 

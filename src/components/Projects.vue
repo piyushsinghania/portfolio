@@ -2,7 +2,10 @@
   <header>
     <h1>Projects</h1>
   </header>
-  <Project :projects="projects" />
+
+  <div v-for="project in projects" :key="project.title">
+    <Project :project="project" />
+  </div>
 </template>
 
 <script>
@@ -51,7 +54,16 @@ export default {
           description:
             "Open source contribution on Frappe Books. <Br /> A free Desktop book-keeping software for small-businesses and freelancers."
         },
-
+        {
+          title: "Pmcurve playground",
+          link: "https://playground.pmcurve.com/login",
+          role: "Frontend developer",
+          tags: ["Freelance"],
+          filename: "pmcurve.png",
+          stack: ["vue.png", "javascript.png", "ant-design.png"],
+          description:
+            "Developed an engaging SQL playground showcasing functionalities such as query results display, history tracking, and table schema visualization."
+        },
         {
           title: "Datoms",
           link: "https://datoms.io/",
