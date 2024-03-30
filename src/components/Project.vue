@@ -10,9 +10,7 @@
           <span v-html="project.description"></span>
         </p>
         <div class="tag__cloud">
-          <div class="tags" v-for="tag in project.tags" :key="tag">
-            #{{ tag }}
-          </div>
+          <div class="tags" v-for="tag in project.tags" :key="tag">#{{ tag }}</div>
         </div>
         <div class="tech__stack">
           <Technology v-for="tech in project.stack" :key="tech" :tech="tech" />
@@ -32,7 +30,7 @@
 import Technology from "./Technology.vue";
 export default {
   components: { Technology },
-  props: ["projects"],
+  props: ["projects"]
 };
 </script>
 

@@ -11,8 +11,8 @@ import Projects from "../components/Projects.vue";
 export default {
   name: "Home",
   components: {
-    Projects,
-  },
+    Projects
+  }
 };
 </script>
 

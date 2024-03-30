@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  props: ["tech"],
+  props: ["tech"]
 };
 </script>
 
