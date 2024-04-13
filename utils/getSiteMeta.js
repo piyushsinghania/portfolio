@@ -2,7 +2,7 @@ const type = 'website';
 const url = 'https://piyushsinghania.com';
 const title = 'Portfolio | Piyush Singhania';
 const description = 'Work samples and projects';
-const mainImage = `${url}/landing-page.png`;
+const mainImage = `${url}/images/landing-page.png`;
 const mainImageAlt = 'Landing page showing projects preview';
 const keywords = [];
 
